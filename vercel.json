@@ -1,0 +1,12 @@
+{
+    "redirects": [
+      {
+        "source": "/amp/:path*",
+        "destination": "https://shamun.dev/:path*"
+      },
+      {
+        "source": "/:path*",
+        "destination": "https://shamun.dev/:path*"
+      }
+    ]
+  }
