@@ -2,11 +2,15 @@
     "redirects": [
       {
         "source": "/amp/:path*",
-        "destination": "https://shamun.dev/:path*"
+        "destination": "https://shamun.dev/posts/:path*"
       },
       {
         "source": "/:path*",
-        "destination": "https://shamun.dev/:path*"
+        "destination": "https://shamun.dev/posts/:path*"
+      },
+      {
+        "source": "/",
+        "destination": "https://shamun.dev"
       }
     ]
   }
